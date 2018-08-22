@@ -7,6 +7,6 @@ Style and accessibility tests for LaunchCode's `Sphinx template`_.
    :maxdepth: 2
 
    tests/styles
-   tests/launchcodestyles
+   tests/codergirlstyles
 
 .. _Sphinx template: https://github.com/LaunchCodeEducation/curriculum-module-template
