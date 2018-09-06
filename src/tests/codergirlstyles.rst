@@ -1,4 +1,4 @@
-Testing LaunchCode Styles for accessibility
+Testing CoderGirl Styles for accessibility
 -------------------------------------------
 
 Text test
