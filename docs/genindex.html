@@ -8,11 +8,13 @@
     <title>Index &#8212; LaunchCode Curriculum Docs  documentation</title>
     <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/css/launchcode.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/fa/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/launchcode.css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
     <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
@@ -35,7 +37,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><span><img src="_static/codergirl-white.png"></span>
+        <a class="navbar-brand" href="index.html"><span><img src="_static/codergirl-white.png" alt="LaunchCode logo"></span>
           Curriculum Docs</a>
         <span class="navbar-text navbar-version pull-left"><b></b></span>
       </div>
@@ -52,20 +54,9 @@
      href="index.html">Pages <b class="caret"></b></a>
   <ul class="dropdown-menu globaltoc"
       role="menu"
-      aria-labelledby="dLabelGlobalToc"><ul>
-<li class="toctree-l1"><a class="reference internal" href="tests/styles.html">Tests</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="tests/styles.html#images-and-figures">Images and Figures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tests/styles.html#bonus-missions">Bonus Missions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tests/styles.html#tables">Tables</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="tests/codergirlstyles.html">Testing CoderGirl Styles for accessibility</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="tests/codergirlstyles.html#text-test">Text test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tests/codergirlstyles.html#code-block-tests">Code Block tests</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tests/codergirlstyles.html#aside-box">Aside box</a></li>
-</ul>
-</li>
-</ul>
+      aria-labelledby="dLabelGlobalToc"><ol>
+<li class="toctree-l1"><a class="reference internal" href="tests/codergirlstyles.html">Testing CoderGirl Styles for accessibility</a></li>
+</ol>
 </ul>
 </li>
               
@@ -80,7 +71,8 @@
             
 <form class="navbar-form navbar-right" action="search.html" method="get">
  <div class="form-group">
-  <input type="text" name="q" class="form-control" placeholder="Search" />
+   <label for="q" class="searchLabel">Search: </label>
+   <input type="text" name="q" class="form-control" placeholder="Enter search term(s)" />
  </div>
   <input type="hidden" name="check_keywords" value="yes" />
   <input type="hidden" name="area" value="default" />
@@ -115,10 +107,11 @@
     <p class="pull-right">
       <a href="#">Back to top</a>
       
+        <br/>
+        
+      
     </p>
     <p>
-        &copy; Copyright 2018, LaunchCode.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.<br/>
     </p>
   </div>
 </footer>
